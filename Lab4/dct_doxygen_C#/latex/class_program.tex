@@ -1,0 +1,55 @@
+\doxysection{Program Class Reference}
+\hypertarget{class_program}{}\label{class_program}\index{Program@{Program}}
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_program_ada72f8d1518f89bc2e6ad807d5059564}{Main}} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_program_ada72f8d1518f89bc2e6ad807d5059564}\label{class_program_ada72f8d1518f89bc2e6ad807d5059564} 
+\index{Program@{Program}!Main@{Main}}
+\index{Main@{Main}!Program@{Program}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily static void Program.\+Main (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Create a new Serial\+Port instance for COM3 at a baud rate of 9600.
+
+String to store XML data received from the serial port.
+
+Event handler for the Data\+Received event of the Serial\+Port.
+
+Append the received data to the xml\+Buffer.
+
+Check if the xml\+Buffer contains the end tag "{}$<$/distance$>$"{}.
+
+Parse the xml\+Buffer as an XDocument.
+
+Extract the value inside the root element (presumably the distance value).
+
+Reset the xml\+Buffer.
+
+Clear the console.
+
+Display "{}\+Distance\+:"{} in green.
+
+Display the distance value in dark magenta.
+
+Reset console colors.
+
+Handle any exceptions that occur during XML parsing.
+
+Reset the xml\+Buffer.
+
+Attempt to open the serial port.
+
+Handle the case where access to the COM port is denied.
+
+Display a message and wait for a key press before exiting.
+
+Close the serial port.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/38068/source/repos/\+Console\+App21/\+Console\+App21/\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}
